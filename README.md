@@ -33,7 +33,7 @@ Include screenshots or links to visualizations here. For example:
 1. Clone the repository to your local machine.
 2. Ensure you have Python and all required libraries installed.
 3. Run the Python script (`analysis.py`) to perform the analysis.
-4. Open the HTML report (`report.html`) for a detailed presentation of the findings.
+
 
 ### Requirements
 - Python 3.8+
@@ -50,4 +50,3 @@ The analysis is based on data available on Kaggle: [Unsupervised Learning on Cou
 This project is made available under the MIT License.
 
 
-Datasaet: https://www.kaggle.com/datasets/rohan0301/unsupervised-learning-on-country-data
