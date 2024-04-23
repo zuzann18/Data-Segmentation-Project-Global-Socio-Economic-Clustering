@@ -25,7 +25,7 @@ The analysis delineated countries into under-developed, developing, and develope
 - Distinct patterns of socio-economic development across clusters.
 
 ## Scaling the data
-Scaling works by first subtracting the column average from each individual entry. This step ensures the column average is adjusted to zero. Then we divide the result by each column's standard deviation. This step makes the column's standard deviation equal to 1. We transform the unskewed dataset to the same scale, meaning all columns have a mean of zero, and standard deviation of 1. The Box-Cox transformation and StandardScaler are employed to prepare the dataset for KMeans clusterin
+Scaling works by first subtracting the column average from each individual entry. This step ensures the column average is adjusted to zero. Then we divide the result by each column's standard deviation. This step makes the column's standard deviation equal to 1. We transform the unskewed dataset to the same scale, meaning all columns have a mean of zero, and standard deviation of 1. The Box-Cox transformation and StandardScaler are employed to prepare the dataset for KMeans clustering.
 
 ## Heatmap
 
