@@ -3,7 +3,7 @@
 ## Global Socio-Economic Clustering
 
 ## Project Overview
-This project undertakes a comprehensive socio-economic segmentation analysis to identify global development patterns. Utilizing Python and several data science libraries, we analyze key indicators: child mortality, income, and GDP per capita. Our analysis employs data cleaning, exploratory analysis, Box-Cox transformation for normalization, and KMeans clustering to segment countries into developmental categories, offering insights into socio-economic disparities.
+This project undertakes a comprehensive socio-economic segmentation analysis to identify global development patterns. We analyze key indicators: child mortality, income, and GDP per capita. Our analysis employs data cleaning, exploratory analysis, Box-Cox transformation for normalization, and KMeans clustering to segment countries into developmental categories, offering insights into socio-economic disparities.
 
 ## Technologies Used
 - **Python**: Primary programming language
@@ -13,9 +13,9 @@ This project undertakes a comprehensive socio-economic segmentation analysis to 
 - **NumPy & SciPy**: Numerical computing and scientific computing
 
 ## Methodology
-- **Data Cleaning**: Standardized the dataset for analysis.
-- **Exploratory Data Analysis (EDA)**: Identified patterns and relationships.
-- **Normalization**: Used Box-Cox transformation to normalize distributions.
+- **Data Cleaning**: Standardized the dataset for analysis,
+- **Normalization**: Used Box-Cox transformation to normalize distributions
+- **Exploratory Data Analysis (EDA)**: Identified patterns and relationships
 - **Clustering**: Applied KMeans with the elbow criterion method to identify the optimal number of clusters.
 - **Visualization**: Generated scatter plots and heatmaps to visualize the findings.
 
@@ -24,10 +24,23 @@ The analysis delineated countries into under-developed, developing, and develope
 - A strong correlation between GDP per capita and child mortality rates.
 - Distinct patterns of socio-economic development across clusters.
 
-## Visualizations
-Include screenshots or links to visualizations here. For example:
-- Scatter plots showing GDP per capita vs. child mortality.
-- Heatmaps of correlation between different socio-economic indicators.
+## Scaling the data
+Scaling works by first subtracting the column average from each individual entry. This step ensures the column average is adjusted to zero. Then we divide the result by each column's standard deviation. This step makes the column's standard deviation equal to 1. We transform the unskewed dataset to the same scale, meaning all columns have a mean of zero, and standard deviation of 1
+
+### Visualization
+## Heatmap
+
+![image](https://github.com/zuzann18/Data-Segmentation-Project-Global-Socio-Economic-Clustering/assets/62249691/b108c79d-bb82-47a4-8179-c26dc446d458)
+ Above we can see a heatmap with correlations between variables. The most important insights from it are as follows:
+
+child_mort is having high negative correlation with life_expec
+health, exports, income,imports are highly correlated with gdpp
+## Cluster visualization
+On the charts below we can observe the differences between 'gdpp', 'child_mort' and 'income' in presented clusters of countries. Analisys of those clusters can allow us to distinguish clusters of developed countries from the clusters of under-developed countries.
+![image](https://github.com/zuzann18/Data-Segmentation-Project-Global-Socio-Economic-Clustering/assets/62249691/439dbd80-b221-42bd-863a-ab7db7b7eb0d)
+
+![image](https://github.com/zuzann18/Data-Segmentation-Project-Global-Socio-Economic-Clustering/assets/62249691/5ec72a2c-3c56-4aa1-85d2-a6713322be17)
+ 
 
 ## How to Run the Project
 1. Clone the repository to your local machine.
