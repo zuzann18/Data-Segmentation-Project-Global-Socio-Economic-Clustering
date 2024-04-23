@@ -25,22 +25,16 @@ The analysis delineated countries into under-developed, developing, and develope
 - Distinct patterns of socio-economic development across clusters.
 
 ## Scaling the data
-Scaling works by first subtracting the column average from each individual entry. This step ensures the column average is adjusted to zero. Then we divide the result by each column's standard deviation. This step makes the column's standard deviation equal to 1. We transform the unskewed dataset to the same scale, meaning all columns have a mean of zero, and standard deviation of 1
-
+Scaling works by first subtracting the column average from each individual entry. This step ensures the column average is adjusted to zero. Then we divide the result by each column's standard deviation. This step makes the column's standard deviation equal to 1. We transform the unskewed dataset to the same scale, meaning all columns have a mean of zero, and standard deviation of 1.
 
 ## Heatmap
 
 ![image](https://github.com/zuzann18/Data-Segmentation-Project-Global-Socio-Economic-Clustering/assets/62249691/b108c79d-bb82-47a4-8179-c26dc446d458)
- Above we can see a heatmap with correlations between variables. The most important insights from it are as follows:
-
-child_mort is having high negative correlation with life_expec
-health, exports, income,imports are highly correlated with gdpp
+Above we can see a heatmap with correlations between variables. The most important insights from it are as follows: child_mort is having high negative correlation with life_expec
+health, exports, income,imports are highly correlated with gdpp. 
 ## Cluster visualization
 On the charts below we can observe the differences between 'gdpp', 'child_mort' and 'income' in presented clusters of countries. Analisys of those clusters can allow us to distinguish clusters of developed countries from the clusters of under-developed countries.
 ![image](https://github.com/zuzann18/Data-Segmentation-Project-Global-Socio-Economic-Clustering/assets/62249691/439dbd80-b221-42bd-863a-ab7db7b7eb0d)
-
-![image](https://github.com/zuzann18/Data-Segmentation-Project-Global-Socio-Economic-Clustering/assets/62249691/5ec72a2c-3c56-4aa1-85d2-a6713322be17)
- 
 
 ## How to Run the Project
 1. Clone the repository to your local machine.
