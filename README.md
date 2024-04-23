@@ -25,6 +25,9 @@ The analysis delineated countries into under-developed, developing, and develope
 - Distinct patterns of socio-economic development across clusters.
 
 ## Scaling the data
+Uniform Scaling:
+After addressing skewness and making the data distribution more normal with the Box-Cox transformation, StandardScaler ensures that all features contribute equally to the analysis by bringing them onto the same scale. This is done by subtracting the mean and dividing by the standard deviation of each feature, resulting in features centered around zero with a standard deviation of one.
+This step is crucial because KMeans clustering relies on Euclidean distance to form clusters. Without scaling, features with larger scales dominate the distance metric, potentially leading to biased clusters.
 Scaling works by first subtracting the column average from each individual entry. This step ensures the column average is adjusted to zero. Then we divide the result by each column's standard deviation. This step makes the column's standard deviation equal to 1. We transform the unskewed dataset to the same scale, meaning all columns have a mean of zero, and standard deviation of 1. The Box-Cox transformation and StandardScaler are employed to prepare the dataset for KMeans clustering.
 
 ## Heatmap
