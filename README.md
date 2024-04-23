@@ -27,8 +27,8 @@ The analysis delineated countries into under-developed, developing, and develope
 ## Scaling the data
 Scaling works by first subtracting the column average from each individual entry. This step ensures the column average is adjusted to zero. Then we divide the result by each column's standard deviation. This step makes the column's standard deviation equal to 1. We transform the unskewed dataset to the same scale, meaning all columns have a mean of zero, and standard deviation of 1
 
-### Visualization
-# Heatmap
+
+## Heatmap
 
 ![image](https://github.com/zuzann18/Data-Segmentation-Project-Global-Socio-Economic-Clustering/assets/62249691/b108c79d-bb82-47a4-8179-c26dc446d458)
  Above we can see a heatmap with correlations between variables. The most important insights from it are as follows:
